@@ -12,4 +12,10 @@ To run:
 bun run index.ts
 ```
 
-This project was created using `bun init` in bun v1.0.29. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+You need to feed the file names line by line into this program. It was programmed with `find` utility in mind.
+
+Example usage:
+
+```bash
+find ~/path/to/project | bun run index.ts
+```
